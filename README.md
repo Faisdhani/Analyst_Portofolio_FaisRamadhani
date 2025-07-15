@@ -43,17 +43,20 @@ Program Studi Sistem Informasi – Angkatan 2022
 ---
 
 ## 📜 Sertifikasi
-- BNSP – Kompetensi Teknik Komputer dan Jaringan (2022)  
-- Dicoding – Machine Learning, SQL, Manajemen Proyek (2024)  
-- NVIDIA – Deep Learning dan AI Satelit (2025)
+- BNSP –  KKNI Level II In Computer and Network Engineering Competence (2022)  
+- Dicoding – Project Management, Machine Learning, SQL, Database Management System Data, Analyst Visualization, Data Science, Artificial Intelligence (2024)  
+- NVIDIA – Getting Started with Deep learning, Data science, Disaster Risk Monitor Using Satelite Imagery (2025)
 
 ---
 
 ## 🛠 Keterampilan
-- Bahasa: Python, SQL  
-- Tools: Pandas, Matplotlib, scikit-learn, Gensim  
-- Kompetensi: Exploratory Data Analysis, Clustering, Regression, NLP  
-- Kelebihan: Berpikir analitis, pemecahan masalah, komunikasi data
+- Bahasa: Python, SQL (Dasar)
+- Libraries: Pandas, NumPy, Scikit-learn, Gensim, Matplotlib, Seaborn, NLTK, Sastrawi
+- Visualisasi: Tableau (Dasar), Power BI (Dasar)
+- Lainnya: Git & GitHub, Jupyter Notebook, Google Colab
+- Hard Skill : Analisis Data Eksploratif (EDA) Machine Learning (Klasifikasi, Regresi) Natural Language Processing (NLP) Pemodelan Topik (LDA) Statistik Deskriptif
+- Soft Skill : Problem Solving, Berpikir Kritis & Analitis, Manajemen Waktu Kolaborasi Tim, Kemauan Belajar yang Tinggi
+
 
 ---
 
