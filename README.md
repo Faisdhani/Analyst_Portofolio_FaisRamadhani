@@ -4,11 +4,11 @@ Halo! Saya **Muhammad Fais Ramadhani**, mahasiswa Sistem Informasi di **Universi
 
 Saya percaya bahwa kekuatan data terletak pada bagaimana kita menerjemahkannya menjadi keputusan. Proyek-proyek berikut adalah bentuk eksplorasi saya dalam menerapkan analisis data secara nyata dan terukur.
 
----
 
 ---
 
-## 🔍 Penalaman Proyek (Tugas Kuliah)
+
+## 🔍 Pengalaman Proyek (Tugas Kuliah)
 
 ### 1. 🏥 Analisis Ulasan Aplikasi SatuSehat dengan LDA  
 📁 [**Lihat Repository**](https://github.com/Faisdhani/Latent-Dirichlet-Allocation)  
@@ -48,8 +48,6 @@ Analisis sentimen dari 2.500+ tweet terkait IKN menggunakan NLP, TF-IDF, dan kla
 - NB → Akurasi: 83.91%, F1-score: 90.79%  
 **Tools:** Scikit-learn, TF-IDF, SMOTE, Sastrawi
 **Insight:** Ditemukan bahwa lebih dari 94% tweet mencerminkan sentimen positif terhadap pembangunan IKN, terutama terkait pembangunan infrastruktur dan persepsi publik terhadap kebijakan pemerintah. Proyek ini membuktikan kemampuan saya dalam merangkum opini masyarakat dari big data sosial media, berguna untuk keperluan monitoring persepsi publik, evaluasi kebijakan, atau riset strategis pemerintah.
-
----
 
 
 ---
