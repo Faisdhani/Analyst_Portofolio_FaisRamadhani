@@ -1,50 +1,65 @@
-# 📊 Muhammad Fais Ramadhani – Portofolio Data Analyst & Machine Learning
+# 📊 Muhammad Fais Ramadhani – Portofolio Analyst & Machine Learning
 
-Halo! Saya **Muhammad Fais Ramadhani**, mahasiswa Sistem Informasi di **Universitas Dian Nuswantoro**, dengan minat mendalam dalam **analisis data, NLP, dan machine learning**. Portofolio ini saya susun sebagai bukti nyata keterampilan teknis dan pemikiran analitis yang saya miliki, serta kesiapan saya untuk berkontribusi di dunia kerja, khususnya dalam peran **Data Analyst**, maupun **Machine Learning Specialist**.
+Halo! Saya **Muhammad Fais Ramadhani**, mahasiswa Sistem Informasi di **Universitas Dian Nuswantoro**, dengan minat mendalam dalam **analisis data, NLP, dan machine learning**. Portofolio ini saya susun sebagai bukti nyata keterampilan teknis dan pemikiran analitis yang saya miliki, serta kesiapan saya untuk berkontribusi di dunia kerja, khususnya dalam peran **Analyst**, maupun **Machine Learning Specialist**.
 
 Saya percaya bahwa kekuatan data terletak pada bagaimana kita menerjemahkannya menjadi keputusan. Proyek-proyek berikut adalah bentuk eksplorasi saya dalam menerapkan analisis data secara nyata dan terukur.
 
 ---
 
-🔍 Pengalaman Proyek (Tugas Kuliah & Independen)
-1. 🏥 Analisis Ulasan Aplikasi SatuSehat dengan Topic Modeling
-📁 Lihat Repository
-Saya melakukan ekstraksi topik menggunakan LDA (Latent Dirichlet Allocation) untuk mengelompokkan keluhan dan saran pengguna aplikasi SatuSehat.
-Fokus utama proyek ini adalah untuk mendukung pengambilan keputusan produk berbasis ulasan, dengan menampilkan insight seperti keluhan login, sertifikat vaksin, dan UX lambat.
-📌 Relevansi dengan posisi magang: Proyek ini menunjukkan kemampuan saya dalam NLP, data cleaning, dan analisis opini publik, penting dalam mendukung evaluasi layanan berbasis data.
+---
 
-2. 💼 Prediksi Gaji Berdasarkan Pengalaman Kerja (Supervised Regression)
-📁 Lihat Repository
-Menggunakan model regresi untuk memprediksi gaji berdasarkan fitur pengalaman kerja. Saya membandingkan beberapa algoritma: Linear Regression, Decision Tree, dan Random Forest.
-📌 Hasil terbaik: Random Forest dengan akurasi R² = 0.94
-📌 Relevansi dengan posisi magang: Memberikan gambaran bagaimana saya mampu membangun model prediksi bisnis dan mengevaluasinya — keterampilan penting untuk menganalisis tren HR, kompensasi, atau market value.
+## 🔍 Penalaman Proyek (Tugas Kuliah)
 
-3. ⛽ Segmentasi Pola Konsumsi Gas Industri menggunakan DTW & Clustering
-📁 Lihat Repository
-Proyek ini mengelompokkan sektor pelanggan gas (rumah tangga, industri, SPBG, dll.) menggunakan Dynamic Time Warping dan Hierarchical Clustering berdasarkan data tahunan dari BPS (2010–2023).
-📌 Ditemukan 2 cluster utama, dengan sektor industri sebagai pola konsumsi paling dominan & berbeda.
-📌 Relevansi dengan posisi magang: Ini membuktikan saya mampu melakukan analisis time series, clustering sektor bisnis, dan memberikan rekomendasi segmentasi strategis.
+### 1. 🏥 Analisis Ulasan Aplikasi SatuSehat dengan LDA  
+📁 [**Lihat Repository**](https://github.com/Faisdhani/Latent-Dirichlet-Allocation)  
+Deskripsi:  
+Menggunakan **Latent Dirichlet Allocation (LDA)** untuk mengidentifikasi topik utama dari ulasan pengguna aplikasi SatuSehat. Fokus pada pola keluhan seperti login, sertifikat vaksin, dan performa aplikasi.  
+**Tools:** Python, Gensim, pyLDAvis, Sastrawi
+**Insight:** Ditemukan bahwa 4 topik dominan mencerminkan ketidaknyamanan pengguna, khususnya soal akses fitur dan waktu respons sistem. Insight ini dapat digunakan untuk membantu tim pengembang aplikasi menyusun prioritas perbaikan fitur dan peningkatan UX berdasarkan suara pengguna secara data-driven.
 
-4. 🏙️ Analisis Sentimen Pembangunan IKN (SVM vs Naïve Bayes)
-📁 Lihat Repository
-Menganalisis 2.500+ tweet terkait pembangunan IKN menggunakan TF-IDF dan model klasifikasi teks (SVM & Naïve Bayes).
-📌 Hasil:
+---
 
-SVM → Akurasi: 92.74%, F1-score: 96.15%
+### 2. 💼 Prediksi Gaji Berdasarkan Pengalaman Kerja  
+📁 [**Lihat Repository**](https://github.com/Faisdhani/Supervised_Regression_Salary_Prediction)  
+Deskripsi:  
+Model supervised regression dengan tiga algoritma (Linear, Decision Tree, Random Forest) untuk memprediksi gaji berdasarkan pengalaman.  
+**Hasil terbaik:** Random Forest – R² = 0.94  
+**Tools:** Python, scikit-learn, matplotlib
+**Insight:** Model mampu memetakan korelasi kuat antara pengalaman kerja dan besaran gaji. Dapat dimanfaatkan oleh tim HR untuk membuat acuan atau simulasi kompensasi karyawan baru atau benchmarking gaji internal secara objektif.
 
-Naïve Bayes → Akurasi: 83.91%
-📌 Relevansi dengan posisi magang: Proyek ini memperlihatkan pemahaman saya terhadap natural language processing, data imbalance, evaluasi model, serta aplikasi langsung untuk analisis opini publik terhadap kebijakan nasional.
+---
+
+### 3. ⛽ Segmentasi Konsumsi Gas Industri dengan DTW  
+📁 [**Lihat Repository**](https://github.com/Faisdhani/Dynamic_Time_Warping)  
+Deskripsi:  
+Menggunakan **Dynamic Time Warping** dan **Hierarchical Clustering** untuk mengelompokkan sektor pelanggan gas berdasarkan pola konsumsi tahunan.  
+**Hasil:** Optimal cluster = 2 (Silhouette Score = 0.67)  
+**Tools:** Python, tslearn, seaborn, scipy
+**Insight:** Sektor industri memiliki pola konsumsi yang konsisten tinggi dan fluktuatif, berbeda dari sektor lain. Segmentasi ini relevan bagi pihak regulator atau distributor energi untuk mengembangkan strategi pasokan dan kebijakan tarif berdasarkan pola konsumsi aktual per segmen.
+
+---
+
+### 4. 🏙️ Analisis Sentimen Pembangunan IKN (SVM vs Naïve Bayes)  
+📁 [**Lihat Repository**](https://github.com/Faisdhani/sentimen_ikn_svm_nb)  
+Deskripsi:  
+Analisis sentimen dari 2.500+ tweet terkait IKN menggunakan NLP, TF-IDF, dan klasifikasi teks.  
+**Hasil:**  
+- SVM → Akurasi: 92.74%, F1-score: 96.15%  
+- NB → Akurasi: 83.91%, F1-score: 90.79%  
+**Tools:** Scikit-learn, TF-IDF, SMOTE, Sastrawi
+**Insight:** Ditemukan bahwa lebih dari 94% tweet mencerminkan sentimen positif terhadap pembangunan IKN, terutama terkait pembangunan infrastruktur dan persepsi publik terhadap kebijakan pemerintah. Proyek ini membuktikan kemampuan saya dalam merangkum opini masyarakat dari big data sosial media, berguna untuk keperluan monitoring persepsi publik, evaluasi kebijakan, atau riset strategis pemerintah.
+
+---
 
 
 ---
 
 ## 🧠 Kompetensi
 
-- **Bahasa & Tools:** Python, SQL, Excel, Tableau (dasar), Power BI (dasar)  
+- **Bahasa & Tools:** Python, SQL, Excel, Looker Studio, Tableau, Power BI (Dasar)
 - **Library:** Pandas, NumPy, Scikit-learn, Gensim, Seaborn, Matplotlib, Sastrawi  
 - **Machine Learning:** Klasifikasi, Regresi, Clustering, NLP, TF-IDF  
-- **Cybersecurity (dasar):** Konsep IDS/SIEM, Threat Monitoring, Bash & Python untuk scripting  
-- **Soft Skills:** Problem solving, critical thinking, komunikasi data, kerja tim, adaptif & pembelajar cepat
+- **Soft Skills:** Problem solving, critical thinking, komunikasi, kerja tim, adaptif & pembelajar cepat
 
 ---
 
@@ -58,7 +73,7 @@ Program Studi Sistem Informasi – Angkatan 2022
 
 ## 📜 Sertifikasi
 
-📁 [**Lihat Semua Sertifikat**](https://drive.google.com/drive/folders/1ewwc4vBVjBunBaS5iL8mX4QP6SmCbpH6)
+📁 [**Lihat Sertifikat**](https://drive.google.com/drive/folders/1ewwc4vBVjBunBaS5iL8mX4QP6SmCbpH6)
 
 - BNSP – Teknik Komputer & Jaringan (2022)  
 - Dicoding – SQL, ML, Data Visualization, Project Management (2024)  
