@@ -14,7 +14,7 @@ Saya percaya bahwa kekuatan data terletak pada bagaimana kita menerjemahkannya m
 📁 [**Lihat Repository**](https://github.com/Faisdhani/Latent-Dirichlet-Allocation)  
 Deskripsi:  
 Menggunakan **Latent Dirichlet Allocation (LDA)** untuk mengidentifikasi topik utama dari ulasan pengguna aplikasi SatuSehat. Fokus pada pola keluhan seperti login, sertifikat vaksin, dan performa aplikasi.  
-**Tools:** Python, Gensim, pyLDAvis, Sastrawi
+**Tools:** Python, Gensim, pyLDAvis, Sastrawi.
 **Insight:** Ditemukan bahwa 4 topik dominan mencerminkan ketidaknyamanan pengguna, khususnya soal akses fitur dan waktu respons sistem. Insight ini dapat digunakan untuk membantu tim pengembang aplikasi menyusun prioritas perbaikan fitur dan peningkatan UX berdasarkan suara pengguna secara data-driven.
 
 ---
@@ -23,8 +23,8 @@ Menggunakan **Latent Dirichlet Allocation (LDA)** untuk mengidentifikasi topik u
 📁 [**Lihat Repository**](https://github.com/Faisdhani/Supervised_Regression_Salary_Prediction)  
 Deskripsi:  
 Model supervised regression dengan tiga algoritma (Linear, Decision Tree, Random Forest) untuk memprediksi gaji berdasarkan pengalaman.  
-**Hasil terbaik:** Random Forest – R² = 0.94  
-**Tools:** Python, scikit-learn, matplotlib
+**Hasil terbaik:** Random Forest – R² = 0.94.
+**Tools:** Python, scikit-learn, matplotlib.
 **Insight:** Model mampu memetakan korelasi kuat antara pengalaman kerja dan besaran gaji. Dapat dimanfaatkan oleh tim HR untuk membuat acuan atau simulasi kompensasi karyawan baru atau benchmarking gaji internal secara objektif.
 
 ---
@@ -33,8 +33,8 @@ Model supervised regression dengan tiga algoritma (Linear, Decision Tree, Random
 📁 [**Lihat Repository**](https://github.com/Faisdhani/Dynamic_Time_Warping)  
 Deskripsi:  
 Menggunakan **Dynamic Time Warping** dan **Hierarchical Clustering** untuk mengelompokkan sektor pelanggan gas berdasarkan pola konsumsi tahunan.  
-**Hasil:** Optimal cluster = 2 (Silhouette Score = 0.67)  
-**Tools:** Python, tslearn, seaborn, scipy
+**Hasil:** Optimal cluster = 2 (Silhouette Score = 0.67).
+**Tools:** Python, tslearn, seaborn, scipy.
 **Insight:** Sektor industri memiliki pola konsumsi yang konsisten tinggi dan fluktuatif, berbeda dari sektor lain. Segmentasi ini relevan bagi pihak regulator atau distributor energi untuk mengembangkan strategi pasokan dan kebijakan tarif berdasarkan pola konsumsi aktual per segmen.
 
 ---
@@ -44,9 +44,9 @@ Menggunakan **Dynamic Time Warping** dan **Hierarchical Clustering** untuk menge
 Deskripsi:  
 Analisis sentimen dari 2.500+ tweet terkait IKN menggunakan NLP, TF-IDF, dan klasifikasi teks.  
 **Hasil:**  
-- SVM → Akurasi: 92.74%, F1-score: 96.15%  
-- NB → Akurasi: 83.91%, F1-score: 90.79%  
-**Tools:** Scikit-learn, TF-IDF, SMOTE, Sastrawi
+- SVM → Akurasi: 92.74%, F1-score: 96.15%.  
+- NB → Akurasi: 83.91%, F1-score: 90.79%. 
+**Tools:** Scikit-learn, TF-IDF, SMOTE, Sastrawi.
 **Insight:** Ditemukan bahwa lebih dari 94% tweet mencerminkan sentimen positif terhadap pembangunan IKN, terutama terkait pembangunan infrastruktur dan persepsi publik terhadap kebijakan pemerintah. Proyek ini membuktikan kemampuan saya dalam merangkum opini masyarakat dari big data sosial media, berguna untuk keperluan monitoring persepsi publik, evaluasi kebijakan, atau riset strategis pemerintah.
 
 
